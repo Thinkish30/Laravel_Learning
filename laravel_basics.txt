@@ -1,0 +1,55 @@
+
+1. Creating a laravel project  (yt link - https://www.youtube.com/watch?v=_LA9QsgJ0bw&t=70s )
+
+	open the cmd/terminal in your desired directory and write the below code
+
+	(composer create-project laravel/laravel example-app)
+
+
+
+
+
+
+2. navigate to the project file and open in vs code and in terminal type 
+
+	(php artisan serve)
+
+
+
+
+
+3.
+	create a database on phpmyadmin panel 
+	navigate to .env file and change your database name if required
+
+
+
+
+4. Create a new table
+
+	open a seperate cmd in new terminal
+
+	(php artisan migrate)  
+
+	(php artisan make:migration create_products_table)    // create a new table 
+
+	you can navigate to database/migration/your_database_table and in that you can do changes for creation of a table and you can add various field 
+
+	(php artisan migrate)  run this to see the changes on php my admin panel
+
+
+
+
+5. Create a model 
+
+	(php artisan make:model Flight)
+
+	navigate to app/models/Flight  
+
+
+
+6.
+
+
+
+
